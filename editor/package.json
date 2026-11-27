@@ -2,7 +2,7 @@
   "name": "blyx-checkpoint-elect",
   "displayName": "Checkpoint Elect for Blyx",
   "publisher": "RahulChaube",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Keep the best model checkpoint under integer loss minimization and restore it on a stop request.",
   "license": "MIT",
   "engines": {

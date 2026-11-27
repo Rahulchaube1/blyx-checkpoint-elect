@@ -1,10 +1,12 @@
 # Checkpoint Elect
 
-![Package logo](vendor/checkpoint_elect/assets/logo.png)
+![Eurasian oystercatcher](vendor/checkpoint_elect/assets/logo.png)
 
 Keep the best model checkpoint under integer loss minimization and restore it on a stop request.
 
-Machine learning and evaluation · framework · 0.1.1
+Machine learning and evaluation · framework · 0.1.2
+
+Framework bird: Eurasian oystercatcher.
 
 ## Drive the workflow
 
@@ -37,10 +39,10 @@ Run `blyxc native-run main.blyx` to reproduce `expected.txt`. Run `blyxc native-
 ## Try the published project
 
 ```sh
-nest demo checkpoint_elect@0.1.1
+nest demo checkpoint_elect@0.1.2
 blyxc native-run checkpoint_elect-demo/main.blyx
 ```
 
-Install with `nest add checkpoint_elect@0.1.1` and import `vendor::checkpoint_elect::checkpoint_elect`.
+Install with `nest add checkpoint_elect@0.1.2` and import `vendor::checkpoint_elect::checkpoint_elect`.
 
 Maintained by Rahul Chaube. [Blyx](https://www.blyx-lang.space) · [GitHub](https://github.com/Rahulchaube1) · [LinkedIn](https://www.linkedin.com/in/rahulchaube1) · [Sponsor](https://github.com/sponsors/Rahulchaube1)
