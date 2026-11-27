@@ -1,0 +1,27 @@
+{
+  "checkpoint_elect_start": {
+    "prefix": "checkpoint_elect_start",
+    "body": "checkpoint_elect_start()",
+    "description": "Checkpoint Elect \u00b7 Keep the best model checkpoint under integer loss minimization and restore it on a stop request."
+  },
+  "checkpoint_elect_step": {
+    "prefix": "checkpoint_elect_step",
+    "body": "checkpoint_elect_step(${1:snapshot}, ${2:event}, ${3:value})",
+    "description": "Checkpoint Elect \u00b7 Keep the best model checkpoint under integer loss minimization and restore it on a stop request."
+  },
+  "checkpoint_elect_command": {
+    "prefix": "checkpoint_elect_command",
+    "body": "checkpoint_elect_command(${1:snapshot})",
+    "description": "Checkpoint Elect \u00b7 Keep the best model checkpoint under integer loss minimization and restore it on a stop request."
+  },
+  "checkpoint_elect_replay": {
+    "prefix": "checkpoint_elect_replay",
+    "body": "checkpoint_elect_replay(${1:events}, ${2:values})",
+    "description": "Checkpoint Elect \u00b7 Keep the best model checkpoint under integer loss minimization and restore it on a stop request."
+  },
+  "Import checkpoint_elect": {
+    "prefix": "use_checkpoint_elect",
+    "body": "use vendor::checkpoint_elect::checkpoint_elect;",
+    "description": "Import the installed Checkpoint Elect module"
+  }
+}

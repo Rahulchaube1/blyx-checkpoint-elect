@@ -1,0 +1,28 @@
+{
+  "name": "blyx-checkpoint-elect",
+  "displayName": "Checkpoint Elect for Blyx",
+  "publisher": "RahulChaube",
+  "version": "0.1.1",
+  "description": "Keep the best model checkpoint under integer loss minimization and restore it on a stop request.",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "icon": "icon.png",
+  "homepage": "https://nest.blyx-lang.space/packages/checkpoint_elect.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rahulchaube1/blyx-checkpoint-elect.git"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "blyx",
+        "path": "./snippets.json"
+      }
+    ]
+  }
+}
